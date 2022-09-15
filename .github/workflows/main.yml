@@ -14,7 +14,7 @@ jobs:
       - name: Build iOS with Appflow
         uses: ionic-team/appflow-build@v1
         with:
-          token: ${{ secrets.APPFLOW_TOKEN }}
+          token: ion_sdBHriuqjx86JYNXMp8c0R1McnanXbzNBSs30eC6Rj
           app-id: 9f2bd9ea
           platform: android
           build-type: debug
