@@ -16,10 +16,8 @@ jobs:
         uses: ionic-team/appflow-build@v1
         with:
           token: ${{ secrets.APPFLOW_TOKEN }}
-          commit: 2c0c46
           app-id: 9f2bd9ea
           platform: Android
           build-type: debug
-          upload-artifact: Android
 
   # This will trigger a live upda
